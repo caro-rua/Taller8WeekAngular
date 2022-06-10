@@ -1,0 +1,92 @@
+body{
+    font-family: 'Spectral', serif;
+    background-color: black;
+    
+}
+
+.titulo1{
+    font-weight: 600;
+    color: white;
+}
+
+.titulo2{
+    font-weight: 300;
+    color: white !important;
+}
+
+.text-info{
+    padding: auto;
+}
+
+.video-juego{
+    margin-top: 147px;
+}
+
+.tarjetero{
+    -webkit-perspective: 800;
+    perspective: 800;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.tarjeta {
+    background-color: #DDDDDD;
+    /* width: 500px; */
+    height: 500px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+}
+
+.frontal,
+.posterior {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.juego-img {
+    width: 100%;
+    height: 100%;
+}
+
+.posterior {
+    transform: rotatey(180deg);
+    padding: 25px;
+    justify-content: center;
+    text-align: justify;
+    background-color: #DDDDDD;
+}
+
+.posterior h1 {
+    text-align: center;
+    color: #001E6C;
+}
+
+.posterior p {
+    margin: 40px 0;
+}
+
+.tarjetero:hover .tarjeta {
+    transform: rotatey(180deg);
+}
+
+
+.card-img-overlay{
+
+    cursor:pointer; 
+
+}
+
+.fondo{
+
+    opacity: .5;
+    background-color: rgb(0, 0, 0);
+    color: red;
+   
+}
+

@@ -1,0 +1,43 @@
+body{
+    font-family: 'Spectral', serif;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d7eb04c8-9b91-489f-82a3-7920e6a1ba80/d6aje4p-47d9fea9-b1ef-42e6-a85f-a5fb57ef0ef1.png/v1/fill/w_1024,h_576,strp/above_the_clouds__night__by_corgon67_d6aje4p-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZDdlYjA0YzgtOWI5MS00ODlmLTgyYTMtNzkyMGU2YTFiYTgwXC9kNmFqZTRwLTQ3ZDlmZWE5LWIxZWYtNDJlNi1hODVmLWE1ZmI1N2VmMGVmMS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.bOgrgIBX19DaTxkcoDzf4UvjiFze6djmL3dsy-fsZpc);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-corona{
+    max-width: 0 auto;
+    margin: auto;
+    
+}
+
+.corona{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+.corona .icon{
+    width: 40%;
+}
+
+.icon{
+    text-align: center;
+
+}
+
+.text{
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .facet_sidebar {
+      display: none;
+    }
+    #crown {
+
+    }
+  }

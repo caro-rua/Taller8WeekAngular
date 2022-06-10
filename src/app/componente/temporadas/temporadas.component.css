@@ -1,0 +1,11 @@
+body{
+    font-family: 'Spectral', serif;
+}
+
+.barra{
+    background: url(https://jooinn.com/images/a-cloudy-evening-5.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+
+}

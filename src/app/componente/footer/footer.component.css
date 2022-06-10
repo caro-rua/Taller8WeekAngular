@@ -1,0 +1,12 @@
+footer{
+    width: 100%;
+    background: url(https://media.istockphoto.com/videos/stars-in-the-sky-looped-animation-beautiful-night-with-twinkling-video-id539196040?s=640x640);
+}
+
+body{
+    font-family: 'Spectral', serif;
+}
+
+.texto{
+    color: #950101;
+}

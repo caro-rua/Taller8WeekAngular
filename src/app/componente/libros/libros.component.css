@@ -1,0 +1,48 @@
+.content-card{
+    overflow: hidden;
+}
+
+.card{
+    position: relative;
+    border-radius: 20px;
+    padding: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 1%;
+    overflow: hidden;
+    max-height: 300px;
+    margin-top: 25px !important;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 20px -10px #20202049;
+    max-height: 100vh;
+}
+
+.card:hover .info__description{
+   /*  margin-top: 0;
+    border-radius: 0px 0px 20px 20px;
+ */
+ max-height: 100vh;
+}
+
+.imag-card{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 300px;
+}
+
+.info__description{
+    width: 100%;
+    background: #EFF3F5;
+    padding: 20px;
+    max-height: 0;
+    border-radius: 0px 0px 20px 20px;
+    transition: all .35s;
+}
+
+.info__description p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,31 @@
+body{
+    font-family: 'Spectral', serif;
+    text-align: justify;
+}
+
+h1{
+    font-weight: 700;
+    color: #5584AC;
+}
+
+p{
+    font-weight: 500;
+    font-size: 25px;
+    
+}
+
+.cursiva{
+    color: #73777B;
+}
+
+ul{
+    font-weight: 500;
+    font-size: 25px;
+    color: #5584AC;
+}
+
+h3{
+    font-weight: 800;
+    color: #BB2205;
+}
+
